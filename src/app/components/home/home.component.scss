@@ -1,0 +1,55 @@
+
+
+#home-container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    grid-template-columns: auto 300px;
+    grid-template-rows: auto;
+    grid-template-areas: "main aside";
+    place-content: stretch stretch;
+    min-width: 0;
+    min-height: 0;
+}
+
+#main {
+    grid-area: main;
+    padding: 3em 0;
+
+    .big-text {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+}
+
+#aside {
+    grid-area: aside;
+}
+
+
+svg#cartoon {
+    width: 25em;
+    height: 25em;
+
+    // ellipse {
+
+    //     &#head-top, &#head-bottom, &#ear-left, &#ear-right {
+    //         fill: #e2d8dc;
+    //     }
+    //     &#head-top {
+    //         stroke: #a39c97;
+    //         stroke-width: 0.8;
+    //     }
+    //     &#ear-left, &#ear-right {
+    //         fill: #dfced5;
+    //         stroke: #e2d8dc;
+    //         stroke-width: 2.5;
+    //     }
+
+    // }
+
+    // path#eye-left {
+    //     // fill: #fff;
+    // }
+}

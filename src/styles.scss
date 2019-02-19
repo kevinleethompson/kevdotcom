@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Assistant';
+    src: url('/assets/fonts/Assistant-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant';
+    src: url('/assets/fonts/Assistant-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Assistant';
+    src: url('/assets/fonts/Assistant-Light.ttf') format('truetype');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'Cutive Mono';
+    src: url('/assets/fonts/CutiveMono-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/assets/fonts/NotoSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/MaterialIcons-Regular.ttf') format('truetype');
+  }
+
+html, body {
+    font-family: 'Assistant', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.5em;
+    text-indent: 2em;
+    line-height: 1.2;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+a, a:visited {
+    color: initial;
+    text-decoration: none;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.button-icon {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5em;
+    transition: all 50ms linear;
+}
+
+.button-img {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 2.5em;
+    transition: all 50ms linear;
+}
